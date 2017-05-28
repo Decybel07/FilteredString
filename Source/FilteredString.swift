@@ -8,21 +8,12 @@
 
 import Foundation
 
-class FilteredString {
-}
+public class FilteredString {
 
-//
-// extension FilteredString: ExpressibleByStringLiteral {
-//
-//    init(unicodeScalarLiteral: UnicodeScalar) {
-////        s = String(unicodeScalarLiteral)
-//    }
-//
-//    init(extendedGraphemeClusterLiteral: Character) {
-////        s = String(extendedGraphemeClusterLiteral)
-//    }
-//
-//    init(stringLiteral: String) {
-////        s = stringLiteral
-//    }
-// }
+    public init(_ text: String) {
+        let parser = FilteredStringParser(text)
+
+        print(parser.value)
+        print(parser.filters)
+    }
+}

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FilteredString
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        _ = FilteredString("")
+        _ = FilteredString("Dupa jasiu")
+        _ = FilteredString("Hell\\\"o(12.3,14,\"tes)t\")|playground(  )|test")
+        
         // Override point for customization after application launch.
         return true
     }

@@ -94,6 +94,34 @@
 			remoteGlobalIDString = 2D093CB01EDAA7CC002FD545;
 			remoteInfo = "Example watchOS";
 		};
+		2D093CE01EDB017E002FD545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D093C5A1EDAA6BA002FD545 /* FilteredString.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DE530871ECC5CEE00468B72;
+			remoteInfo = "FilteredString tvOS";
+		};
+		2D093CE21EDB0185002FD545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D093C5A1EDAA6BA002FD545 /* FilteredString.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DE530A31ECC5D0900468B72;
+			remoteInfo = "FilteredString macOS";
+		};
+		2D093CE41EDB018A002FD545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D093C5A1EDAA6BA002FD545 /* FilteredString.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DE5305D1ECC5CAE00468B72;
+			remoteInfo = "FilteredString iOS";
+		};
+		2D093CE71EDB01A9002FD545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D093C5A1EDAA6BA002FD545 /* FilteredString.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DE5307A1ECC5CD600468B72;
+			remoteInfo = "FilteredString watchOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -317,6 +345,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				2D093CE51EDB018A002FD545 /* PBXTargetDependency */,
 				2D093CCE1EDAA7CC002FD545 /* PBXTargetDependency */,
 			);
 			name = "Example iOS";
@@ -335,6 +364,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				2D093CE31EDB0185002FD545 /* PBXTargetDependency */,
 			);
 			name = "Example macOS";
 			productName = "Example macOS";
@@ -352,6 +382,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				2D093CE11EDB017E002FD545 /* PBXTargetDependency */,
 			);
 			name = "Example tvOS";
 			productName = "Example tvOS";
@@ -386,6 +417,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				2D093CE81EDB01A9002FD545 /* PBXTargetDependency */,
 			);
 			name = "Example watchOS Extension";
 			productName = "Example watchOS Extension";
@@ -601,6 +633,26 @@
 			isa = PBXTargetDependency;
 			target = 2D093CB01EDAA7CC002FD545 /* Example watchOS */;
 			targetProxy = 2D093CCD1EDAA7CC002FD545 /* PBXContainerItemProxy */;
+		};
+		2D093CE11EDB017E002FD545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FilteredString tvOS";
+			targetProxy = 2D093CE01EDB017E002FD545 /* PBXContainerItemProxy */;
+		};
+		2D093CE31EDB0185002FD545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FilteredString macOS";
+			targetProxy = 2D093CE21EDB0185002FD545 /* PBXContainerItemProxy */;
+		};
+		2D093CE51EDB018A002FD545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FilteredString iOS";
+			targetProxy = 2D093CE41EDB018A002FD545 /* PBXContainerItemProxy */;
+		};
+		2D093CE81EDB01A9002FD545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FilteredString watchOS";
+			targetProxy = 2D093CE71EDB01A9002FD545 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
