@@ -18,16 +18,13 @@
 		2DE530C31ECC5DFC00468B72 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DE530BD1ECC5DFC00468B72 /* Info.plist */; };
 		2DE530C41ECC5DFC00468B72 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DE530BD1ECC5DFC00468B72 /* Info.plist */; };
 		2DE530C51ECC5DFC00468B72 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DE530BD1ECC5DFC00468B72 /* Info.plist */; };
-		2DE530C91ECC5E0900468B72 /* FilteredString_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE530C71ECC5E0900468B72 /* FilteredString_iOSTests.swift */; };
-		2DE530CA1ECC5E0900468B72 /* FilteredString_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE530C71ECC5E0900468B72 /* FilteredString_iOSTests.swift */; };
-		2DE530CB1ECC5E0900468B72 /* FilteredString_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE530C71ECC5E0900468B72 /* FilteredString_iOSTests.swift */; };
 		2DE530CC1ECC5E0900468B72 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DE530C81ECC5E0900468B72 /* Info.plist */; };
 		2DE530CD1ECC5E0900468B72 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DE530C81ECC5E0900468B72 /* Info.plist */; };
 		2DE530CE1ECC5E0900468B72 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DE530C81ECC5E0900468B72 /* Info.plist */; };
-		2DE530D01ECC600100468B72 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE530CF1ECC600100468B72 /* Sample.swift */; };
-		2DE530D11ECC600100468B72 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE530CF1ECC600100468B72 /* Sample.swift */; };
-		2DE530D21ECC600100468B72 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE530CF1ECC600100468B72 /* Sample.swift */; };
-		2DE530D31ECC600100468B72 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE530CF1ECC600100468B72 /* Sample.swift */; };
+		2DE530D01ECC600100468B72 /* FilteredString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE530CF1ECC600100468B72 /* FilteredString.swift */; };
+		2DE530D11ECC600100468B72 /* FilteredString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE530CF1ECC600100468B72 /* FilteredString.swift */; };
+		2DE530D21ECC600100468B72 /* FilteredString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE530CF1ECC600100468B72 /* FilteredString.swift */; };
+		2DE530D31ECC600100468B72 /* FilteredString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE530CF1ECC600100468B72 /* FilteredString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,9 +61,8 @@
 		2DE530AC1ECC5D0900468B72 /* FilteredStringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilteredStringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE530BC1ECC5DFC00468B72 /* FilteredString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilteredString.h; sourceTree = "<group>"; };
 		2DE530BD1ECC5DFC00468B72 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2DE530C71ECC5E0900468B72 /* FilteredString_iOSTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilteredString_iOSTests.swift; sourceTree = "<group>"; };
 		2DE530C81ECC5E0900468B72 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2DE530CF1ECC600100468B72 /* Sample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		2DE530CF1ECC600100468B72 /* FilteredString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilteredString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,7 +149,7 @@
 			children = (
 				2DE530BC1ECC5DFC00468B72 /* FilteredString.h */,
 				2DE530BD1ECC5DFC00468B72 /* Info.plist */,
-				2DE530CF1ECC600100468B72 /* Sample.swift */,
+				2DE530CF1ECC600100468B72 /* FilteredString.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -161,7 +157,6 @@
 		2DE530C61ECC5E0900468B72 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				2DE530C71ECC5E0900468B72 /* FilteredString_iOSTests.swift */,
 				2DE530C81ECC5E0900468B72 /* Info.plist */,
 			);
 			path = Tests;
@@ -461,7 +456,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DE530D01ECC600100468B72 /* Sample.swift in Sources */,
+				2DE530D01ECC600100468B72 /* FilteredString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,7 +464,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DE530C91ECC5E0900468B72 /* FilteredString_iOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,7 +471,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DE530D11ECC600100468B72 /* Sample.swift in Sources */,
+				2DE530D11ECC600100468B72 /* FilteredString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,7 +479,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DE530D21ECC600100468B72 /* Sample.swift in Sources */,
+				2DE530D21ECC600100468B72 /* FilteredString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,7 +487,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DE530CA1ECC5E0900468B72 /* FilteredString_iOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,7 +494,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DE530D31ECC600100468B72 /* Sample.swift in Sources */,
+				2DE530D31ECC600100468B72 /* FilteredString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,7 +502,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DE530CB1ECC5E0900468B72 /* FilteredString_iOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,7 +588,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -658,7 +650,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "CodingLifestyle.FilteredString-iOS";
@@ -848,7 +840,7 @@
 				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -909,7 +901,7 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -974,7 +966,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.2;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1033,7 +1025,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.2;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1199,7 +1191,7 @@
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "CodingLifestyle.FilteredString-macOS";
@@ -1261,7 +1253,7 @@
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "CodingLifestyle.FilteredString-macOS";
 				PRODUCT_NAME = FilteredString;
@@ -1400,6 +1392,7 @@
 				2DE530711ECC5CAE00468B72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DE530751ECC5CAE00468B72 /* Build configuration list for PBXNativeTarget "FilteredString iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -1408,6 +1401,7 @@
 				2DE530731ECC5CAE00468B72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DE530801ECC5CD700468B72 /* Build configuration list for PBXNativeTarget "FilteredString watchOS" */ = {
 			isa = XCConfigurationList;
@@ -1416,6 +1410,7 @@
 				2DE530821ECC5CD700468B72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DE530991ECC5CEE00468B72 /* Build configuration list for PBXNativeTarget "FilteredString tvOS" */ = {
 			isa = XCConfigurationList;
@@ -1424,6 +1419,7 @@
 				2DE5309B1ECC5CEE00468B72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DE5309C1ECC5CEE00468B72 /* Build configuration list for PBXNativeTarget "FilteredString tvOSTests" */ = {
 			isa = XCConfigurationList;
@@ -1432,6 +1428,7 @@
 				2DE5309E1ECC5CEE00468B72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DE530B51ECC5D0900468B72 /* Build configuration list for PBXNativeTarget "FilteredString macOS" */ = {
 			isa = XCConfigurationList;
@@ -1440,6 +1437,7 @@
 				2DE530B71ECC5D0900468B72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DE530B81ECC5D0900468B72 /* Build configuration list for PBXNativeTarget "FilteredString macOSTests" */ = {
 			isa = XCConfigurationList;
@@ -1448,6 +1446,7 @@
 				2DE530BA1ECC5D0900468B72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

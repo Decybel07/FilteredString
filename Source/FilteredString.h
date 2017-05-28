@@ -6,5 +6,7 @@
 //
 //
 
+@import Foundation;
+
 FOUNDATION_EXPORT double FilteredStringVersionNumber;
 FOUNDATION_EXPORT const unsigned char FilteredStringVersionString[];
