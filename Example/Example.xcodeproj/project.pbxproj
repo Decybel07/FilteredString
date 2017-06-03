@@ -432,6 +432,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Coding lifestyle";
 				TargetAttributes = {
 					2D093C751EDAA766002FD545 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -1283,6 +1284,7 @@
 				2D093C881EDAA766002FD545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D093C991EDAA788002FD545 /* Build configuration list for PBXNativeTarget "Example macOS" */ = {
 			isa = XCConfigurationList;
@@ -1291,6 +1293,7 @@
 				2D093C9B1EDAA788002FD545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D093CAC1EDAA7AA002FD545 /* Build configuration list for PBXNativeTarget "Example tvOS" */ = {
 			isa = XCConfigurationList;
@@ -1299,6 +1302,7 @@
 				2D093CAE1EDAA7AA002FD545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D093CD01EDAA7CC002FD545 /* Build configuration list for PBXNativeTarget "Example watchOS Extension" */ = {
 			isa = XCConfigurationList;
@@ -1307,6 +1311,7 @@
 				2D093CD21EDAA7CC002FD545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D093CD41EDAA7CC002FD545 /* Build configuration list for PBXNativeTarget "Example watchOS" */ = {
 			isa = XCConfigurationList;
@@ -1315,6 +1320,7 @@
 				2D093CD61EDAA7CC002FD545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

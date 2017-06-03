@@ -7,10 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D093CDB1EDAD8AA002FD545 /* FilteredStringParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D093CDA1EDAD8AA002FD545 /* FilteredStringParser.swift */; };
-		2D093CDC1EDAD8AA002FD545 /* FilteredStringParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D093CDA1EDAD8AA002FD545 /* FilteredStringParser.swift */; };
-		2D093CDD1EDAD8AA002FD545 /* FilteredStringParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D093CDA1EDAD8AA002FD545 /* FilteredStringParser.swift */; };
-		2D093CDE1EDAD8AA002FD545 /* FilteredStringParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D093CDA1EDAD8AA002FD545 /* FilteredStringParser.swift */; };
+		2D747A381EDBEE22003802FE /* StringFilterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D747A371EDBEE22003802FE /* StringFilterManager.swift */; };
+		2D747A391EDBEE22003802FE /* StringFilterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D747A371EDBEE22003802FE /* StringFilterManager.swift */; };
+		2D747A3A1EDBEE22003802FE /* StringFilterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D747A371EDBEE22003802FE /* StringFilterManager.swift */; };
+		2D747A3B1EDBEE22003802FE /* StringFilterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D747A371EDBEE22003802FE /* StringFilterManager.swift */; };
+		2DB89CAB1EE35A5E008FF3A1 /* DefaultFilteredStringParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB89CA91EE35A5E008FF3A1 /* DefaultFilteredStringParser.swift */; };
+		2DB89CAC1EE35A5E008FF3A1 /* DefaultFilteredStringParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB89CA91EE35A5E008FF3A1 /* DefaultFilteredStringParser.swift */; };
+		2DB89CAD1EE35A5E008FF3A1 /* DefaultFilteredStringParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB89CA91EE35A5E008FF3A1 /* DefaultFilteredStringParser.swift */; };
+		2DB89CAE1EE35A5E008FF3A1 /* DefaultFilteredStringParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB89CA91EE35A5E008FF3A1 /* DefaultFilteredStringParser.swift */; };
+		2DB89CAF1EE35A5E008FF3A1 /* FilteredStringParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB89CAA1EE35A5E008FF3A1 /* FilteredStringParser.swift */; };
+		2DB89CB01EE35A5E008FF3A1 /* FilteredStringParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB89CAA1EE35A5E008FF3A1 /* FilteredStringParser.swift */; };
+		2DB89CB11EE35A5E008FF3A1 /* FilteredStringParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB89CAA1EE35A5E008FF3A1 /* FilteredStringParser.swift */; };
+		2DB89CB21EE35A5E008FF3A1 /* FilteredStringParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB89CAA1EE35A5E008FF3A1 /* FilteredStringParser.swift */; };
+		2DB89CB51EE36205008FF3A1 /* StringFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB89CB41EE36205008FF3A1 /* StringFilter.swift */; };
+		2DB89CB61EE36205008FF3A1 /* StringFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB89CB41EE36205008FF3A1 /* StringFilter.swift */; };
+		2DB89CB71EE36205008FF3A1 /* StringFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB89CB41EE36205008FF3A1 /* StringFilter.swift */; };
+		2DB89CB81EE36205008FF3A1 /* StringFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB89CB41EE36205008FF3A1 /* StringFilter.swift */; };
+		2DB89CC41EE364A6008FF3A1 /* ClosureStringFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB89CC31EE364A6008FF3A1 /* ClosureStringFilter.swift */; };
+		2DB89CC51EE364A6008FF3A1 /* ClosureStringFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB89CC31EE364A6008FF3A1 /* ClosureStringFilter.swift */; };
+		2DB89CC61EE364A6008FF3A1 /* ClosureStringFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB89CC31EE364A6008FF3A1 /* ClosureStringFilter.swift */; };
+		2DB89CC71EE364A6008FF3A1 /* ClosureStringFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB89CC31EE364A6008FF3A1 /* ClosureStringFilter.swift */; };
 		2DE530681ECC5CAE00468B72 /* FilteredString.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE5305E1ECC5CAE00468B72 /* FilteredString.framework */; };
 		2DE530911ECC5CEE00468B72 /* FilteredString.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE530881ECC5CEE00468B72 /* FilteredString.framework */; };
 		2DE530AD1ECC5D0900468B72 /* FilteredString.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE530A41ECC5D0900468B72 /* FilteredString.framework */; };
@@ -56,7 +72,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2D093CDA1EDAD8AA002FD545 /* FilteredStringParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilteredStringParser.swift; sourceTree = "<group>"; };
+		2D747A371EDBEE22003802FE /* StringFilterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringFilterManager.swift; sourceTree = "<group>"; };
+		2DB89CA91EE35A5E008FF3A1 /* DefaultFilteredStringParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultFilteredStringParser.swift; sourceTree = "<group>"; };
+		2DB89CAA1EE35A5E008FF3A1 /* FilteredStringParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilteredStringParser.swift; sourceTree = "<group>"; };
+		2DB89CB41EE36205008FF3A1 /* StringFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringFilter.swift; sourceTree = "<group>"; };
+		2DB89CC31EE364A6008FF3A1 /* ClosureStringFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosureStringFilter.swift; sourceTree = "<group>"; };
 		2DE5305E1ECC5CAE00468B72 /* FilteredString.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FilteredString.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE530671ECC5CAE00468B72 /* FilteredStringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilteredStringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE5307B1ECC5CD600468B72 /* FilteredString.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FilteredString.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +146,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DB89CA81EE35A5E008FF3A1 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				2DB89CAA1EE35A5E008FF3A1 /* FilteredStringParser.swift */,
+				2DB89CA91EE35A5E008FF3A1 /* DefaultFilteredStringParser.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		2DB89CB31EE36205008FF3A1 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				2DB89CB41EE36205008FF3A1 /* StringFilter.swift */,
+				2DB89CC31EE364A6008FF3A1 /* ClosureStringFilter.swift */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
 		2DE530521ECC5C0100468B72 = {
 			isa = PBXGroup;
 			children = (
@@ -155,7 +193,9 @@
 				2DE530BC1ECC5DFC00468B72 /* FilteredString.h */,
 				2DE530BD1ECC5DFC00468B72 /* Info.plist */,
 				2DE530CF1ECC600100468B72 /* FilteredString.swift */,
-				2D093CDA1EDAD8AA002FD545 /* FilteredStringParser.swift */,
+				2D747A371EDBEE22003802FE /* StringFilterManager.swift */,
+				2DB89CA81EE35A5E008FF3A1 /* Parser */,
+				2DB89CB31EE36205008FF3A1 /* Filter */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -340,6 +380,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Coding lifestyle";
 				TargetAttributes = {
 					2DE5305D1ECC5CAE00468B72 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -462,8 +503,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DB89CAF1EE35A5E008FF3A1 /* FilteredStringParser.swift in Sources */,
+				2DB89CAB1EE35A5E008FF3A1 /* DefaultFilteredStringParser.swift in Sources */,
+				2DB89CB51EE36205008FF3A1 /* StringFilter.swift in Sources */,
+				2D747A381EDBEE22003802FE /* StringFilterManager.swift in Sources */,
+				2DB89CC41EE364A6008FF3A1 /* ClosureStringFilter.swift in Sources */,
 				2DE530D01ECC600100468B72 /* FilteredString.swift in Sources */,
-				2D093CDB1EDAD8AA002FD545 /* FilteredStringParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,8 +523,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DB89CB01EE35A5E008FF3A1 /* FilteredStringParser.swift in Sources */,
+				2DB89CAC1EE35A5E008FF3A1 /* DefaultFilteredStringParser.swift in Sources */,
+				2DB89CB61EE36205008FF3A1 /* StringFilter.swift in Sources */,
+				2D747A391EDBEE22003802FE /* StringFilterManager.swift in Sources */,
+				2DB89CC51EE364A6008FF3A1 /* ClosureStringFilter.swift in Sources */,
 				2DE530D11ECC600100468B72 /* FilteredString.swift in Sources */,
-				2D093CDC1EDAD8AA002FD545 /* FilteredStringParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,8 +536,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DB89CB11EE35A5E008FF3A1 /* FilteredStringParser.swift in Sources */,
+				2DB89CAD1EE35A5E008FF3A1 /* DefaultFilteredStringParser.swift in Sources */,
+				2DB89CB71EE36205008FF3A1 /* StringFilter.swift in Sources */,
+				2D747A3A1EDBEE22003802FE /* StringFilterManager.swift in Sources */,
+				2DB89CC61EE364A6008FF3A1 /* ClosureStringFilter.swift in Sources */,
 				2DE530D21ECC600100468B72 /* FilteredString.swift in Sources */,
-				2D093CDD1EDAD8AA002FD545 /* FilteredStringParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,8 +556,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DB89CB21EE35A5E008FF3A1 /* FilteredStringParser.swift in Sources */,
+				2DB89CAE1EE35A5E008FF3A1 /* DefaultFilteredStringParser.swift in Sources */,
+				2DB89CB81EE36205008FF3A1 /* StringFilter.swift in Sources */,
+				2D747A3B1EDBEE22003802FE /* StringFilterManager.swift in Sources */,
+				2DB89CC71EE364A6008FF3A1 /* ClosureStringFilter.swift in Sources */,
 				2DE530D31ECC600100468B72 /* FilteredString.swift in Sources */,
-				2D093CDE1EDAD8AA002FD545 /* FilteredStringParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

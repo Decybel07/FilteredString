@@ -3,7 +3,7 @@
 //  Example tvOS
 //
 //  Created by Adrian Bobrowski on 28.05.2017.
-//
+//  Copyright © 2017 Coding lifestyle. All rights reserved.
 //
 
 import UIKit
@@ -19,7 +19,6 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 

@@ -3,7 +3,7 @@
 //  Example watchOS Extension
 //
 //  Created by Adrian Bobrowski on 28.05.2017.
-//
+//  Copyright © 2017 Coding lifestyle. All rights reserved.
 //
 
 import WatchKit

@@ -3,7 +3,7 @@
 //  Example iOS
 //
 //  Created by Adrian Bobrowski on 28.05.2017.
-//
+//  Copyright © 2017 Coding lifestyle. All rights reserved.
 //
 
 import UIKit
@@ -17,9 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        _ = FilteredString("")
-        _ = FilteredString("Dupa jasiu")
-        _ = FilteredString("Hell\\\"o(12.3,14,\"tes)t\")|playground(  )|test")
+        print(FilteredString(""))
+        print(FilteredString("I dont know"))
+        print(FilteredString("Hell\\\"o(12.75,14,\"tes)t\")|playground(  )|test"))
         
         // Override point for customization after application launch.
         return true
@@ -46,7 +46,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
+    
 }
 
